@@ -11,7 +11,7 @@ const runAnimation = () => {
 };
 
 async function welcome() {
-    let animation = chalkAnimation.rainbow("Welcome to TODO CLI");
+    let animation = chalkAnimation.rainbow("Welcome to TODO CLI:");
     await runAnimation();
 
     animation.stop();
